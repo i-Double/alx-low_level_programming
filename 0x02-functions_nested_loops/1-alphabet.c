@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
-*main - this program prints _putchar
-*
+* print_alphabet - prints the alpha in lowercase
 */
-int main(void)
+void print_alphabet(void)
 {
-	printf("_putchar");
-	return (0);
+	char la;
+	for (la = 'a'; la <= 'z'; la++)
+		_putchar(la);
+	_putchar('\n');
 }
